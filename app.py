@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 import pandas as pd
-
+import sklearn 
 # Load the Lasso Regressor Model
 filename = 'ipl_score_pred.pkl'
 regressor = pickle.load(open(filename, 'rb'))
