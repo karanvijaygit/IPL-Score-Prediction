@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 import pandas as pd
 import sklearn 
+import scipy
 # Load the Lasso Regressor Model
 filename = 'ipl_score_pred.pkl'
 regressor = pickle.load(open(filename, 'rb'))
